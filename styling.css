@@ -5,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 body{
@@ -117,10 +118,9 @@ nav ul li a{
 }
 
 .dreams{
-    display: flex;
-    position: relative;
-    width: 30%;
-    transform: translate(200px,-20px);
+
+    width: 40%;
+    transform: translate(200px,-10px);
 
 }
 
@@ -132,4 +132,16 @@ nav ul li a{
     display: flex;
     width: 100%;
     justify-content: left;
+    position: absolute;
+    transform: translate(-150px,400px);
+}
+
+.other{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    transform: translate(190px,450px);
+    
 }
