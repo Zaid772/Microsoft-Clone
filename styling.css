@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 4085px;
+}
+
+nav{
+    background: white;
+    height: 54px;
+
+}
+
+nav ul{
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 54px;
+    margin: 0 5px;
+}
+
+nav .logo{
+    float: left;
+    margin-left: 100px;
+    line-height: 65px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 12px;
+}
+
+.menu-box{
+    margin-right: 20px;
+    line-height: 65px;
+    line-height: 54px;
+    margin: 0 5;
+    position: absolute;
+    top: 100%;
+    right: 70%;
+    transform: translate(800px,-790px);
+}
+
+.cart{
+    margin-right: 20px;
+    line-height: 65px;
+    line-height: 54px;
+    margin: 0 5;
+    position: absolute;
+    top: 100%;
+    right: 70%;
+    transform: translate(850px,-790px);
+
+}
+
+.front-pic{
+    transform: translate(0,-10px);
+}
+
+
+    
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10000em;
+    transform: translate(0,120px);
+    padding-right: 200px;
+    color: blue;
+    
+}
+
+.icons ul{
+    font-size: 16px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    text-size-adjust: 16px;
+    color: blue;
+}
+
+.electronics{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    transform: translate(0,250px);
+}
